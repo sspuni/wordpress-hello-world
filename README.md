@@ -10,3 +10,9 @@ Basic wordpress plugin to print Hello World in browser console if the currently 
 ## Usage
 
 Open browser console and navigate to the newest post on your wordpress blog. You should see `"Hello World!" -- <Your Post Title>`
+
+## Running PHP Code Sniffer
+
+- Open terminal / command prompt
+- Navigate to project folder
+- Execute `./vendor/bin/phpcs -l .`
